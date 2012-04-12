@@ -114,7 +114,7 @@ void zamien(char *naz, unsigned char *ciag,int dl) {
         bajt = 0;
         if (dl-i < 8) {
             for (j=0;j<dl-i;j++) {
-                if (n/owy[i+j] == '1') {
+                if (nowy[i+j] == '1') {
                     bajt += potega2(7-j);
                 }
             }

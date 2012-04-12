@@ -80,7 +80,7 @@ int main() {
     char nazwa[32],nazwa2[32];
     int i,j;
     unsigned char test[5] = {};
-    int x;
+    int x = 0;
     int liczba[256] = {};
     printf("Podaj nazwe pliku: "); scanf("%s",nazwa);
     memcpy(nazwa2,nazwa,strlen(nazwa)-5); // tu czasami wali sie nazwa pliku, pewnie brak \0 czy cos
@@ -155,7 +155,7 @@ int main() {
             } else temp = temp->lewy;
             if (temp->symbol != 3000) {
                 fputc(temp->symbol,plik2);
-                temp = nowe;-
+                temp = nowe;
             }
         }
 
