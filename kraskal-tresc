@@ -10,7 +10,7 @@ struct vertex {
     unsigned int parent; // nazwa rodzica
     unsigned int rank; // ranga wierzcholka
 } *V; // tablica wierzcholkow rezerwowana dynamicznie
-
+////// UWAGA: mozna przyjac struct edge *parent zamiast unsigned int parent
 struct edge {
     unsigned int u,v; // para etykiet wierzcholkow
     float weight; // waga krawedzi
