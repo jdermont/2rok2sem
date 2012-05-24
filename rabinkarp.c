@@ -86,7 +86,7 @@ int main() {
     // uzytkowik podaje lancuch do znalezienia
     printf("Podaj lancuch do wyszukania: "); scanf("%s",lancuch);
 
-    // algorytm KMP
+    // algorytm RK
     k = RabinKarp(text,lancuch);
 
 
